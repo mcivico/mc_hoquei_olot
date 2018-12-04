@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticies"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Notícies" />
+        <item
+            android:id="@+id/nav_partits"
+            android:icon="@drawable/ic_partits"
+            android:title="Partits" />
+        <item
+            android:id="@+id/nav_calendari"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Calendari" />
+        <item
+            android:id="@+id/nav_primer_equip"
+            android:icon="@drawable/ic_primer_equip"
+            android:title="Primer Equip" />
+        <item
+            android:id="@+id/nav_patrocinadors"
+            android:icon="@drawable/ic_patrocinador"
+            android:title="Patrocinadors" />
+
+
+    </group>
+
+</menu>
